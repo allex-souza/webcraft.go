@@ -1,0 +1,126 @@
+@charset "utf-8";
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100;0,9..40,200;0,9..40,300;0,9..40,400;0,9..40,500;0,9..40,600;0,9..40,700;0,9..40,800;0,9..40,900;0,9..40,1000;1,9..40,100;1,9..40,200;1,9..40,300;1,9..40,400;1,9..40,500;1,9..40,600;1,9..40,700;1,9..40,800;1,9..40,900;1,9..40,1000&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+}
+header{ border: .1px solid rebeccapurple;
+    position: relative;
+    display: block;
+}
+.cxX{
+    display: flex;
+    position: relative;
+    width: 80%;
+    max-width: 1450px;
+    margin: 0 auto;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    align-content: center;
+    justify-content: space-between;
+    align-items: center;
+}
+.cxY{
+    -webkit-box-shadow: 0px 0px 33px -30px rgba(8,0,31,1);
+    -moz-box-shadow: 0px 0px 33px -30px rgba(8,0,31,1);
+    box-shadow: 0px 0px 33px -30px rgba(8,0,31,1);
+    padding: 20px 0;
+}
+.imgLogo{
+    width: 182.03px;
+}
+.navMenu{
+    display: block;
+    width: 500px;
+}
+.navMenu ul{
+    display: flex;
+    align-content: center;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    align-items: center;
+    width: 100%;
+    justify-content: space-between;
+}
+.navMenu ul li{
+    font-family: "DM sans";
+    list-style: none;
+}
+.navMenu ul li a{
+    color: #08001F;
+    font-size: 13pt;
+    font-weight: 900;
+    text-decoration: none;
+}
+.home{
+    border-bottom:3.5px solid #A98CFF;
+}
+
+.cxAlingTituloCapa li{
+    list-style-image: none;
+    background-image: url(imgs/icon-ok.svg);
+    background-repeat: no-repeat; 
+    background-position: left center;
+    padding-left: 30px;
+}
+.cxAlingTituloCapa h1{
+    font-family: "Poppins";
+    font-weight: 900;
+    color: #08001F;
+    font-size:55pt;
+    line-height:62pt;
+}
+.cxAlingTituloCapa h2{
+    font-weight: 500;
+    font-family: "DM sans";
+    margin-bottom: 30px;
+    font-size: 23pt;
+}
+.cxAlingTituloCapa li{
+    font-family: "DM sans";
+    list-style: none;
+    margin: 20px auto;
+    font-size: 13pt;
+}
+.cxCapa{
+}
+.cxAlingXY{
+    width: 80%;
+    display: flex;
+    position: relative;
+    max-width: 1450px;
+    margin: 100px auto;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    align-content: center;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.cxCapa span{
+background: #9A51ED;
+background: linear-gradient(to top, #9A51ED 0%, #5025D1 100%);
+-webkit-background-clip: text;
+-webkit-text-fill-color: transparent;
+
+}
+
+.cxCapa button{
+    background: rgb(154,81,237);
+background: linear-gradient(180deg, rgba(154,81,237,1) 0%, rgba(80,37,209,1) 100%);
+    padding: 15px 60px;
+    font-family: "DM sans";
+    text-transform: uppercase;
+    font-size: 15pt;
+    border: none;
+    border-radius: 7px;
+    margin: 20px 0 10px 0;
+    color: #F2EDFF;
+}
+.cximgButRaio{
+    position: relative;
+    display: block;
+}
